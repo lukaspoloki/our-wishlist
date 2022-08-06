@@ -1,0 +1,38 @@
+import { Budget } from "@/models/Budget";
+import { Contribution } from "@/models/Contribution";
+import { Contributor } from "@/models/Contributor";
+import { Tenant } from "@/models/Tenant";
+export interface State {
+  isContributionSuccessfull: boolean;
+  environment: string;
+  isDevelopment: boolean;
+  language: string;
+  church: string;
+  churchId: number;
+  error: string;
+  currentTenantId: string;
+  currentTenant: Tenant;
+  currentContributorId: string;
+  contributors: Contributor[];
+  currentContributions: Contribution[];
+  isIndividualLoginPossible: boolean;
+  isCoupleLoginPossible: boolean;
+  isCompanyLoginPopupVisible: boolean;
+  isChangeContributorPopupVisible: boolean;
+  isSpouseLoginPopupVisible: boolean;
+  tenants: Array<Tenant>;
+  budget: Budget;
+  isCalcPopupVisible: boolean;
+  isConfirmationPopupVisible: boolean;
+  isPaymentPlanPopupVisible: boolean;
+  isSuccessfullContributionPopupVisible: boolean;
+  contributionAmount: number;
+  billingMonth: string;
+  billingMethod: string;
+  totalBudgetContributionsAmount: number;
+  budgetParticipation: number;
+  hasSpouse: boolean;
+  backButton: string;
+  flowType: string;
+  spouseFlow: string[];
+}

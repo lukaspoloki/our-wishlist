@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_profile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/24/Profile" stroke="#132836" stroke-width="2">
+            <g id="Group-2" transform="translate(5.250000, 5.000000)">
+                <g id="Group" transform="translate(0.000000, 8.250000)">
+                    <path d="M12.75,0.75 L12.75,3.25 C12.75,4.63071187 11.6210691,5.75 10.2490137,5.75 L3.25098635,5.75 C1.86972973,5.75 0.75,4.64033794 0.75,3.25 L0.75,0.75" id="Rectangle-4" transform="translate(6.750000, 3.250000) scale(1, -1) translate(-6.750000, -3.250000) "></path>
+                </g>
+                <circle id="Oval" cx="6.75" cy="3" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

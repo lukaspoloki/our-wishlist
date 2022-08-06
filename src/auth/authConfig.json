@@ -1,0 +1,13 @@
+{
+  "domain": "bcc-sso-sandbox.eu.auth0.com",
+  "client_id": "Zn4wl8qDonJWsq4JmyskHVvnusBYxcq0",
+  "response_type": "token id_token",
+  "redirect_uri": "http://localhost:3000/",
+  "audience": "https://budget-api.myshare.today",
+  "scope": "openid profile email church country",
+  "state": "OPAQUE_VALUE",
+  "nonce": "NONCE",
+  "CacheLocation": "localstorage",
+  "useRefreshTokens": true,
+  "possibleChurchesIds": [69, 18, 61, 55, 453, 539]
+}

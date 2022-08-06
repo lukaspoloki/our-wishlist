@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="bg-black" lang="">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="./favicon.svg" type="image/svg+xml" rel="icon" media="(prefers-color-scheme: light)" />
+    <link href="favicon_white.svg" type="image/svg+xml" rel="icon" media="(prefers-color-scheme: dark)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet link (common for all widgets) -->
+    <link href="https://widgets.bcc.no/styles/widgets.css" rel="stylesheet" type="text/css" />
+    <!-- end stylesheet link -->
+    <title>Lida and Lukasz</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HL8XGS642B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "");
+    </script>
     <script type="module" src="/src/main.ts"></script>
+  </head>
+
+  <body class="md:mt-6">
+    <noscript>
+      <strong
+        >We're sorry but Our wishlist doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div class="flex justify-center">
+      <div class="absolute max-w-full w-full flex flex-col bg-nudeblush lg:max-w-md md:shadow-lg md:rounded-2xl lg:h-screen">
+        <div class="flex flex-col">
+          <div class="flex flex-col">
+            <div class="flex flex-col w-full lg:h-screen h-screen justify-center items-center md:rounded-2xl">
+              <img class="rounded-3xl -mt-64 -ml-1/2 w-10 h-10 rotate-animation" src="LidanLukasz.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="app" class="relative z-10"></div>
   </body>
 </html>
+
+<style>
+  .rotate-animation {
+    animation: scaling 2s infinite alternate;
+  }
+
+  @keyframes scaling {
+    from {
+      -webkit-transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(2);
+    }
+  }
+</style>

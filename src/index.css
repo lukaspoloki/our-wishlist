@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+
+.tooltip {
+    @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+    @apply visible z-50;
+}
+
+.bottom-div {
+    position: fixed;
+    bottom: env(safe-area-inset-bottom);
+}
+
+.green-gradient {
+    background: linear-gradient(78.63deg, #004641 38.73%, rgba(0, 70, 65, 0.76) 107.53%);
+}
+
+.letter-spacing {
+    letter-spacing: 0.25px;
+    align-self: stretch;
+    line-height: 150%;
+}
+
+.router-link-active {
+    fill: red;
+}
+
+@tailwind utilities;
+
+
